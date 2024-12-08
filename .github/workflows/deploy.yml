@@ -32,6 +32,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           publish_dir: ./dist # Vite 默认的打包输出目录
-          deploy_branch: gh-pages # 设置部署的分支
           github_token: ${{ secrets.GITHUB_TOKEN }} # 自动获取 GitHub token
 
