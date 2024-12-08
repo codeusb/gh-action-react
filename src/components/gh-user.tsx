@@ -12,6 +12,9 @@ export const GhUser = () => {
   };
   return (
     <div className="gh-user">
+      <div>
+        <span>Success Github Actions</span>
+      </div>
       <button onClick={getGithubUser}>Click Me</button>
       <button onClick={() => setUser("")}>Revert</button>
       <div>
