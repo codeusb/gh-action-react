@@ -13,7 +13,7 @@ export const GhUser = () => {
   return (
     <div className="gh-user">
       <div>
-        <span>Success Github Actions 3</span>
+        <span>update 2024-12-10</span>
       </div>
       <button onClick={getGithubUser}>Click Me</button>
       <button onClick={() => setUser("")}>Revert</button>
